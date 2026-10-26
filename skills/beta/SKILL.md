@@ -6,7 +6,7 @@ description: Give me a beta for X. Takes a runner, finds the betas and copies al
 # Give me a beta for X
 
 Route: story to idea. Tools from the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
-or `mcp__plugin_scannor_scannor__launched` from the plugin). About 5 to 8 cents.
+or `mcp__plugin_scannor_scannor__launched` from the plugin). About $0.05 to $0.08.
 
 A beta is a new token that rides a runner's story from another angle (the runner's cat with a sword, a beta's cat in
 armor). A copy is the same story again. Both are ideas built on a real story; neither is a new story.

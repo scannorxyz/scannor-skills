@@ -9,27 +9,27 @@ The seven narrower skills (running-now, big-name-touch, story-launched, token-lo
 cover the common questions. Use this one for everything else. Tools are on the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
 or `mcp__plugin_scannor_scannor__launched` from the plugin).
 
-## The tools (cents per call)
+## The tools (price per call)
 
-| Tool | Answers | Cents |
+| Tool | Answers | Price |
 | --- | --- | --- |
-| `viral` | posts spreading across X now, by likes in a 1h, 6h or 24h window | 1 |
-| `recaps` | the curators' nightly "what you missed" lists: what ran and why | 1 |
-| `big_names` | what the X accounts the user names posted or replied to lately | 1 per 10 accounts |
-| `search_x` | posts for any X search (story, ticker, `from:` account, address) | 1 |
-| `post` | one post: numbers, author, the post it replies to, top replies | 1 |
-| `launched` | tokens on a story: cap, holders, age, stage, dev and its launch count, 1h change | 1 |
-| `token` | one token: links, origin post, market numbers, what the graph knows | 1 |
-| `attention` | posts naming a token's contract address: count, authors, reach, bots | 1 a page |
-| `trending` | launchpad tokens trading most in the last 5m, 1h, 6h or 24h, by real buyers | 1 |
-| `new_launches` | the newest launches that already have holders or buyers | 1 |
-| `search_video` | is a story on TikTok or Instagram Reels: matching videos, views, the credited original | 1 per platform |
-| `check_token` | bundles: Block-0, dev holding, top 10, linked holders, new wallets, funders | 2 |
-| `wallet_profile` | one wallet: early buys, launches it was early in, funder, X posts, graph | 1 |
-| `track_wallet` | start or stop watching a wallet the user chose | 0 (5 free, then 5 a month) |
-| `tracked` | recent buys and sells of the user's tracked wallets | 0 |
-| `balance` | balance left and the last calls | 0 |
-| `topup` | a link to add balance | 0 |
+| `viral` | posts spreading across X now, by likes in a 1h, 6h or 24h window | $0.01 |
+| `recaps` | the curators' nightly "what you missed" lists: what ran and why | $0.01 |
+| `big_names` | what the X accounts the user names posted or replied to lately | $0.01 per 10 accounts |
+| `search_x` | posts for any X search (story, ticker, `from:` account, address) | $0.01 |
+| `post` | one post: numbers, author, the post it replies to, top replies | $0.01 |
+| `launched` | tokens on a story: cap, holders, age, stage, dev and its launch count, 1h change | $0.01 |
+| `token` | one token: links, origin post, market numbers, what the graph knows | $0.01 |
+| `attention` | posts naming a token's contract address: count, authors, reach, bots | $0.01 a page |
+| `trending` | launchpad tokens trading most in the last 5m, 1h, 6h or 24h, by real buyers | $0.01 |
+| `new_launches` | the newest launches that already have holders or buyers | $0.01 |
+| `search_video` | is a story on TikTok or Instagram Reels: matching videos, views, the credited original | $0.01 per platform |
+| `check_token` | bundles: Block-0, dev holding, top 10, linked holders, new wallets, funders | $0.02 |
+| `wallet_profile` | one wallet: early buys, launches it was early in, funder, X posts, graph | $0.01 |
+| `track_wallet` | start or stop watching a wallet the user chose | $0.01 an alert (each buy or sell) |
+| `tracked` | recent buys and sells of the user's tracked wallets | free |
+| `balance` | balance left and the last calls | free |
+| `topup` | a link to add balance | free |
 
 ## Chains
 
@@ -55,7 +55,7 @@ Examples: "compare these devs" is `token` on one token of each dev (launch count
 `wallet_profile` on each dev. "Who funded the top holders of X" is `check_token` (each holder's `funder`, and `busy`
 when the funder is an exchange), then `wallet_profile` on a funder shared by several holders.
 
-Say the plan and its cost before running more than 10 cents of calls. Prefer one call that answers over three that
+Say the plan and its cost before running more than $0.10 of calls. Prefer one call that answers over three that
 might. Search X by contract address, never by ticker: tickers are shared by unrelated tokens and bots.
 
 ## Rules for every answer
@@ -68,8 +68,8 @@ might. Search X by contract address, never by ticker: tickers are shared by unre
   their data matters, cite it as "a study posted on X". Facts in a plain voice ("the dev sold 40% in the first minute"),
   never "scammer". Never label a wallet (insider, dev, a person's name) unless a tool answer says so with a source.
   Never promise buyers, a price or a return.
-- **Money:** every paid answer has `_billing`. End with what the scan cost and what is left ("This scan cost 7 cents,
-  $9.81 left."). On "Out of balance", show its top-up link and stop.
+- **Money:** every paid answer has `_billing`. End with what the scan cost and what is left in dollars, never cents or ¢
+  ("This scan cost $0.07, $9.81 left."). On "Out of balance", show its top-up link and stop.
 - **Time:** tools take hours, not dates. X dates are UTC.
 - **Where the data comes from:** if asked, say scannor reads X and the chains itself. Never name the services
   behind it. Link a token's chart (the `chart` field), posts on X, and wallets and transactions on the chain's explorer (the `explorer` field: Solscan or Blockscout).

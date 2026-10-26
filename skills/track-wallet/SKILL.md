@@ -6,7 +6,7 @@ description: Profile a Solana or Robinhood Chain wallet and track it (tracking i
 # Track this wallet
 
 Route: wallet. Tools from the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
-or `mcp__plugin_scannor_scannor__launched` from the plugin). `wallet_profile` is 1 cent; tracking is free for 5 wallets, then 5 cents a wallet a month; `tracked` is free.
+or `mcp__plugin_scannor_scannor__launched` from the plugin). `wallet_profile` is $0.01; tracking costs $0.01 an alert (each buy or sell of the wallet), from the balance; `tracked` is free.
 
 The chain side of these tools is specified, not yet tested against scannor's keys. The X side is tested: searching the
 SWORDCAT dev's address on X found 0 posts.
@@ -19,9 +19,9 @@ SWORDCAT dev's address on X found 0 posts.
 2. **Write what the numbers say,** never a label. "Bought in the first minute of 4 launches; 3 ran past $1M. Funded
    from one wallet that also funded 2 other early buyers. Nothing on X about this wallet." The user decides what that
    means. Never call a wallet an insider, a dev or a person's name unless a tool answer says so with a source.
-3. **Ask before tracking.** Offer it, with the label you would use. Only on a yes, call `track_wallet` with `wallet`
-   and `label`. If it answers that the 6th wallet costs 5 cents a month, ask once more; call again with
-   `accept_charge: true` only on a yes.
+3. **Ask before tracking.** Offer it, with the label you would use and the price: $0.01 for each buy or sell it
+   makes. Only on a yes, call `track_wallet` with `wallet` and `label`. When the balance runs out, tracking stops and
+   `tracked` lists the wallet under `stopped`.
 4. **Activity.** `tracked` shows recent buys and sells and `together` (tokens 2 or more tracked wallets bought).
    In Claude Code and Codex the user asks for it; in Telegram each trade arrives as a message.
 5. **Stop** with `track_wallet` and `stop: true`.
@@ -31,7 +31,7 @@ Private by design: scannor never shows who else tracks a wallet or how many do. 
 ## The answer
 
 The wallet (short form, first 4 and last 4) and its numbers in 3 to 5 lines, then the question "Track it?".
-After tracking: "Tracking 3 wallets, 2 free left." For activity: one line a trade (time UTC, buy or sell, token, SOL),
+After tracking: "Tracking 3 wallets, $0.01 an alert." For activity: one line a trade (time UTC, buy or sell, token, SOL),
 `together` first.
 
 Suggested replies: profile [Track it] [Check its last token] [No]; activity [Check this token] [Stop tracking].

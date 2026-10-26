@@ -6,7 +6,7 @@ description: The lore of a token, and whether it looks undervalued. Opens the to
 # The lore of this token, and is it undervalued
 
 Route: token to story. Tools from the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
-or `mcp__plugin_scannor_scannor__launched` from the plugin). About 6 cents.
+or `mcp__plugin_scannor_scannor__launched` from the plugin). About $0.06.
 
 ## Steps
 

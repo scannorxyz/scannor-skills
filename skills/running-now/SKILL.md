@@ -6,7 +6,7 @@ description: What is starting to run right now. Finds the stories spreading on X
 # What is running now
 
 Route: story to token. Tools from the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
-or `mcp__plugin_scannor_scannor__launched` from the plugin). A full scan is about 6 cents.
+or `mcp__plugin_scannor_scannor__launched` from the plugin). A full scan is about $0.06.
 
 ## Steps
 

@@ -6,7 +6,7 @@ description: Is this story already launched, and which token leads. Takes a stor
 # Is this story launched, and who leads
 
 Route: story to token. Tools from the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
-or `mcp__plugin_scannor_scannor__launched` from the plugin). About 4 to 6 cents.
+or `mcp__plugin_scannor_scannor__launched` from the plugin). About $0.04 to $0.06.
 
 ## Steps
 
@@ -15,7 +15,7 @@ or `mcp__plugin_scannor_scannor__launched` from the plugin). About 4 to 6 cents.
 2. **How big it is.** Call `search_x` with the story as a quoted phrase, several forms joined by `OR`, `min_likes: 200`,
    `hours: 48`, `mode: "top"`. Tested form: `("John Chapman" OR "Takur Ghar") since:2026-10-24 min_faves:200` gave 6
    posts, 3 authors, 942K views. Bare words must all match, so use a phrase or `OR`, never a list of loose words.
-   For a video story, add `search_video` (1 cent per platform): is it on TikTok or Instagram, and who made the original.
+   For a video story, add `search_video` ($0.01 per platform): is it on TikTok or Instagram, and who made the original.
 3. **Tokens on it.** Call `launched` with the story's name (1 to 3 words) and `chain: "all"`; say which chain each
    token is on. If empty, try the key noun alone, then the
    ticker form ("sixseven", "67"). `launched` matches names, not meaning: read each row's name and `x` link to check it is

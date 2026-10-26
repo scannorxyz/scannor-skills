@@ -6,15 +6,15 @@ description: Did a big name touch anything. Reads what the X accounts the user n
 # Did a big name touch anything
 
 Route: watcher. Tools from the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
-or `mcp__plugin_scannor_scannor__launched` from the plugin). About 3 to 6 cents for a list of 10.
+or `mcp__plugin_scannor_scannor__launched` from the plugin). About $0.03 to $0.06 for a list of 10.
 
 ## Steps
 
 1. **Which accounts.** scannor keeps no list: the user picks. If they have not named any in this chat, ask: "Which X
    accounts should I watch? Up to 20." Reuse their list for the rest of the chat.
-2. **What they did.** Call `big_names` with `accounts` and `hours: 12` (24 for "today"). It costs 1 cent per 10
+2. **What they did.** Call `big_names` with `accounts` and `hours: 12` (24 for "today"). It costs $0.01 per 10
    accounts; Elon and other very busy accounts get their own search (he filled 18 of 20 posts on a shared page), so
-   8 accounts plus Elon is 2 cents. It runs the tested query `(from:a OR from:b ...)` with a time window.
+   8 accounts plus Elon is $0.02. It runs the tested query `(from:a OR from:b ...)` with a time window.
 3. **Find the touches.** A touch is a post or reply about a meme, a character, an animal, a picture, a phrase or a
    ticker. Skip politics, business and replies to friends. A reply's text is often only an emoji or a link
    (Elon's SWORDCAT reply was "@paranoidream ❤️"; Trump's posts were only links): call `post` on it, which also reads

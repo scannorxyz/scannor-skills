@@ -6,7 +6,7 @@ description: Check a Solana or Robinhood Chain token before buying or copying it
 # Check this token
 
 Route: token check. Tools from the scannor MCP server (clients prefix the names: `mcp__scannor__launched`,
-or `mcp__plugin_scannor_scannor__launched` from the plugin). 3 cents (`check_token` 2, `token` 1).
+or `mcp__plugin_scannor_scannor__launched` from the plugin). $0.03 (`check_token` $0.02, `token` $0.01).
 
 ## Steps
 
