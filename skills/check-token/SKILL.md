@@ -18,7 +18,10 @@ or `mcp__plugin_scannor_scannor__launched` from the plugin). 3 cents (`check_tok
    `stats.wash` (seconds where Block-0 sold and others bought it right back).
 4. `graph.wallets`: holders scannor has seen before, with how many launches each was early in and how many ran past
    $1M. This is the part no other check has. Name the wallet (short form, first 4 and last 4) and the numbers.
-5. If `stats.covered` is false, the read stopped before slot 50 on a busy launch: say the early numbers are a floor.
+5. If `stats.covered` is false, the read stopped early on a busy launch: say the early numbers are a floor.
+6. Robinhood Chain: the answer also has `launchpad` (pons, wormbook, ape.store, deployed directly, other) and
+   `holders_count`. Block-0 is the first trading block. A wallet funded through the bridge or a contract shows no
+   funder: say links were read from shared transactions only.
 
 ## How to read it
 

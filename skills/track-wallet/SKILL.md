@@ -1,6 +1,6 @@
 ---
 name: track-wallet
-description: Profile a Solana or Robinhood Chain wallet and track it (Solana only for now) when the user says so. Shows its early buys, the launches it was early in and how they did, its funder, what X says about it, and what scannor already knows; then watches its buys and sells. Use for "who is this wallet", "track this wallet", "what did my wallets buy", "stop tracking", a wallet address from a check.
+description: Profile a Solana or Robinhood Chain wallet and track it (tracking is Solana only for now) when the user says so. Shows its early buys, the launches it was early in and how they did, its funder, what X says about it, and what scannor already knows; then watches its buys and sells. Use for "who is this wallet", "track this wallet", "what did my wallets buy", "stop tracking", a wallet address from a check.
 ---
 
 # Track this wallet
