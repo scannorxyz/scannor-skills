@@ -22,17 +22,15 @@ armor). A copy is the same story again. Both are ideas built on a real story; ne
    same item on another animal). Tested: `attention` on SWORDCAT named "CAT IN ARMOR"; `launched("cat in armor")` found
    it at $22,862 with 354 holders, and 4 more tokens on the same idea within 40 minutes.
    Do not search X for "beta": tested, 0 of 20 posts said it; the page was ticker chatter.
-4. **How big betas got.** There is no reliable average. The playbook measured betas reaching up to 45% of a small
-   runner's cap. Show the betas already out on this story (step 3) with their caps: that is the real evidence. Tool
+4. **How big betas got.** There is no reliable average. Show the betas already out on this story (step 3) with their caps: that is the real evidence. Tool
    caps are today's, not the top; a recap line ("hit $3m") gives the top when there is one.
 5. **Three ideas.** Each: name, ticker, one line on the angle, the fact from step 2 it rests on, a picture idea. Then
    call `launched` on each name: drop or rename any that is already taken by a live token.
 
-## What the playbook says
+## Worth knowing
 
 - Copies run on hot stories, when there are more buyers than one token can hold. A copy wins only when it gets the
   backing of the person behind the story.
-- A copy of a runner, or a token riding one, started 9% of the 199 runners (14% of memes).
 
 ## The answer
 

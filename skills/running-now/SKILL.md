@@ -45,11 +45,8 @@ that is not `thin`. The numbers are starting values; scannor's weekly outcome re
 - **dead:** tokens were launched on it but none is alive (`tokens` empty, `dropped_dead` above 0).
 - **fake:** the biggest token is flagged `thin` (its cap or market is not real). Say so, and use the next one.
 
-## What the playbook measured (199 runners, 2026-08-14 to 10-21)
-
-A big account or brand doing something started 26% of runners (44% of memes); viral content or a character 16% (27%);
-news 9% (14%); a copy of a runner 9% (14%). Big-account touches started more runners than viral content alone, so
-run the `big-name-touch` skill too when the user wants the whole picture.
+A big account or brand doing something starts many runners, so run the `big-name-touch` skill too when the user
+wants the whole picture.
 
 ## The answer
 

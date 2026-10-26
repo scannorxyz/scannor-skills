@@ -28,7 +28,7 @@ or `mcp__plugin_scannor_scannor__launched` from the plugin). About 4 to 6 cents.
 
 - Tag the story (Story tags, below).
 - `leader_share_pct` over 80 means the story has one token; under 50, buyers are split.
-- Playbook: copies run on hot stories, when there are more buyers than one token can hold. A copy wins only when it
+- Copies run on hot stories, when there are more buyers than one token can hold. A copy wins only when it
   gets the backing of the person behind the story. The strongest signal is that person following, posting or taking
   the token's supply.
 - A big story with no token is the find. Say its views and how old its top post is.

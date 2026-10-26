@@ -20,7 +20,7 @@ or `mcp__plugin_scannor_scannor__launched` from the plugin). 3 cents (`check_tok
    $1M. This is the part no other check has. Name the wallet (short form, first 4 and last 4) and the numbers.
 5. If `stats.covered` is false, the read stopped before slot 50 on a busy launch: say the early numbers are a floor.
 
-## How to read it (the playbook)
+## How to read it
 
 - Assume every new token is bundled. The question is how much is still held, and by whom.
 - Block-0 is the launch's own block: only wallets ready before the launch buy there. Block-0 wallets that still hold

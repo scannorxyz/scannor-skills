@@ -39,10 +39,9 @@ that is not `thin`. The numbers are starting values; scannor's weekly outcome re
 - **dead:** tokens were launched on it but none is alive (`tokens` empty, `dropped_dead` above 0).
 - **fake:** the biggest token is flagged `thin` (its cap or market is not real). Say so, and use the next one.
 
-## What the playbook says
+## Worth knowing
 
-- A big account or brand doing something (a follow, reply, quote, ad, a ticker in a bio) started 26% of the 199
-  runners and 44% of the memes.
+- A big account or brand doing something (a follow, reply, quote, ad, a ticker in a bio) starts many runners.
 - The strongest signal is the person a token is named after following it, posting it or taking its supply: then the
   story is theirs. A copy wins only when it gets that backing.
 - Seen in the test: Elon replied "❤️" to a sword cat video on 2026-10-24 at 14:37 UTC. 6 tokens linking Elon's post

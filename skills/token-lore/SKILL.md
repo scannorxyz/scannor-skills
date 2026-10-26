@@ -33,7 +33,7 @@ There is no single number. Report these and say which way each points:
 - **Real buyers:** `organic_buyers_24h` against `traders_24h` (SWORDCAT: 111 of 4,811 traders) and
   `posts_under_100_views` against `posts`. Mostly bots means the volume is not people.
 - **Backing:** does the person or account the story is about post the token, follow it or reply to its posts (read in
-  `post` and `attention`)? The playbook's strongest signal; a copy wins only with it.
+  `post` and `attention`)? The strongest signal; a copy wins only with it.
 - **The dev:** `dev_launches` and `dev_graduated` (165 and 24 for the SWORDCAT dev): a dev with hundreds of launches
   and few graduations makes many tokens.
 - **The check:** Block-0 share, linked holders, dev holding (from `check_token`'s `findings`).
