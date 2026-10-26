@@ -1,0 +1,12 @@
+interface:
+  display_name: "Check a token"
+  short_description: "Bundles, dev holding, top 10 and linked holders"
+  default_prompt: "Check <token address>"
+  brand_color: "#7CF0B4"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "scannor"
+      description: "scannor: X, TikTok, Instagram and tokens on Solana and Robinhood Chain"
+      transport: "streamable_http"
+      url: "https://mcp.scannor.xyz/mcp"

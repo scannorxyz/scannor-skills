@@ -1,0 +1,12 @@
+interface:
+  display_name: "Track a wallet"
+  short_description: "Profile a wallet and follow its buys and sells"
+  default_prompt: "Track <wallet address>"
+  brand_color: "#7CF0B4"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "scannor"
+      description: "scannor: X, TikTok, Instagram and tokens on Solana and Robinhood Chain"
+      transport: "streamable_http"
+      url: "https://mcp.scannor.xyz/mcp"

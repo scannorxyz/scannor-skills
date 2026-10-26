@@ -1,0 +1,13 @@
+{
+  "name": "scannor",
+  "owner": { "name": "scannor", "url": "https://scannor.xyz" },
+  "description": "scannor: the narrative scanner for tokens on Solana and Robinhood Chain.",
+  "plugins": [
+    {
+      "name": "scannor",
+      "source": "./",
+      "description": "The scannor MCP server and eight skills: what is running, is it launched, check a token, token lore, big names, betas, tracked wallets.",
+      "category": "crypto"
+    }
+  ]
+}

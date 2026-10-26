@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scannor": {
+      "type": "http",
+      "url": "https://mcp.scannor.xyz/mcp"
+    }
+  }
+}

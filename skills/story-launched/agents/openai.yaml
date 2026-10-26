@@ -1,0 +1,12 @@
+interface:
+  display_name: "Is it launched"
+  short_description: "Is a story already a token, and who leads"
+  default_prompt: "Is the swordcat story launched?"
+  brand_color: "#7CF0B4"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "scannor"
+      description: "scannor: X, TikTok, Instagram and tokens on Solana and Robinhood Chain"
+      transport: "streamable_http"
+      url: "https://mcp.scannor.xyz/mcp"

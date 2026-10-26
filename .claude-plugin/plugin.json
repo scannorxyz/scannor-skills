@@ -1,0 +1,10 @@
+{
+  "name": "scannor",
+  "displayName": "scannor",
+  "version": "1.0.0",
+  "description": "What is spreading on X, TikTok and Instagram, which tokens are already on it, and whether a token is worth anything, on Solana and Robinhood Chain. The scannor MCP server and eight skills.",
+  "author": { "name": "scannor", "url": "https://scannor.xyz" },
+  "homepage": "https://scannor.xyz",
+  "repository": "https://github.com/scannorxyz/scannor-skills",
+  "keywords": ["solana", "robinhood-chain", "tokens", "memecoins", "x", "tiktok", "narratives", "wallets", "mcp"]
+}
