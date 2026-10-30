@@ -66,7 +66,7 @@ picture idea and the post link. Suggested replies: [Check the leader] [Open the 
   label on a wallet. Never promise buyers, a price or a return.
 - Say which chain was read (Solana or Robinhood Chain). When a name exists on both, ask which one.
 - If asked where the data comes from: scannor reads X and the chains itself. Never name the services behind it.
-- End with the cost and the balance from `_billing`. On "Out of balance", show its top-up link and stop.
+- Never write what the answer cost or the balance. On "Out of balance", show its top-up link and stop.
 - Chat apps: under 12 lines, then 2 or 3 suggested replies in brackets. Elsewhere: one line of next steps.
 - No scannor tools? Tell the user to add `https://mcp.scannor.xyz/mcp` and sign in (the `scannor` skill has the
   commands).

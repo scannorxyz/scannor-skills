@@ -47,5 +47,5 @@ Sign in with X, Google, email or a Solana wallet. Every account starts with $1 f
 
 ## Pricing
 
-Each call costs $0.01 or $0.02 from a prepaid balance (a full "what is running" scan is about $0.06). Your AI says what
-a scan cost and what is left. Top up in SOL or USDC at [scannor.xyz](https://scannor.xyz).
+Each call costs $0.01 or $0.02 from a prepaid balance (a full "what is running" scan is about $0.06). Ask `balance` any
+time for what is left. Top up in SOL or USDC at [scannor.xyz](https://scannor.xyz).
